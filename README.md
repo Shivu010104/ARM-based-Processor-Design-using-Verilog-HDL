@@ -33,8 +33,17 @@ This project presents a fully functional **32-bit ARM-based single-cycle RISC pr
 
 The processor implements a **Harvard architecture** with separate instruction and data memories, following ARM architectural principles. The design uses a single-cycle execution model where each instruction completes in one clock cycle, making it ideal for educational purposes and real-time applications.
 
-![Processor Datapath Architecture](./docs/datapath-diagram.png)
-*Figure 1: Complete processor datapath showing all major functional units including PC logic, register file, ALU, and memory interfaces*
+## Micro Architecture top view (rough) : 
+![image](https://github.com/user-attachments/assets/f37b1b66-d345-4d15-9b75-08f2a79659e7)
+
+
+## Micro Architecture in details : 
+
+![image](https://github.com/user-attachments/assets/0cbcf160-2750-4286-9c24-b48418b063c9)
+
+## More into the controller 
+
+![image](https://github.com/user-attachments/assets/d0f56724-bb97-469b-aa8c-ea7331d043e2)
 
 ### Core Components
 
@@ -477,29 +486,10 @@ The design demonstrates how ARM's elegant conditional execution model can be imp
 
 <div align="center">
 
-### 🎓 Advancing Computer Architecture Education Through ARM-Based Design
-
-**Status:** Production Ready | **Last Updated:** September 2025 | **Version:** 1.0.0
-
-[![GitHub Stars](https://img.shields.io/github/stars/your-username/arm32-processor?style=social)](https://github.com/your-username/arm32-processor)
-[![GitHub Forks](https://img.shields.io/github/forks/your-username/arm32-processor?style=social)](https://github.com/your-username/arm32-processor)
-
-*Empowering the next generation of computer architects through ARM-based RISC design*
 
 </div>
 
 
-## Micro Architecture top view (rough) : 
-![image](https://github.com/user-attachments/assets/f37b1b66-d345-4d15-9b75-08f2a79659e7)
-
-
-## Micro Architecture in details : 
-
-![image](https://github.com/user-attachments/assets/0cbcf160-2750-4286-9c24-b48418b063c9)
-
-## More into the controller 
-
-![image](https://github.com/user-attachments/assets/d0f56724-bb97-469b-aa8c-ea7331d043e2)
 
 
  
